@@ -1,6 +1,6 @@
-# Code for "Getting in the Door: Streamlining Intake in Civil Legal Services with Large Language Models"
+# Code and Data for "Getting in the Door: Streamlining Intake in Civil Legal Services with Large Language Models"
 
-This repository contains the code for the paper "Getting in the Door: Streamlining Intake in Civil Legal Services with Large Language Models", available at:
+This repository contains the code and data for the paper "Getting in the Door: Streamlining Intake in Civil Legal Services with Large Language Models", available at:
 [https://arxiv.org/abs/2410.03762](https://arxiv.org/abs/2410.03762), and accepted at JURIX 2024.
 
 The code in notebook.ipynb loads a number of scenarios (from scenarios.tsv) and intake rules (intake_J1.txt, intake_J2.txt, intake_J3.txt), and then uses various LLMs to predict whether a certain factual situation falls under the provided intake rules. The results are exported to a file that can be further analyzed.
